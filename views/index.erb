@@ -1,0 +1,9 @@
+
+<% @artists.each do |artist| %>
+<strong><em><%= artist.name %></em></strong><br>     
+<ul>
+  <li><% artist.albums.each do |album| %></li>
+  <li><em><%= album.name %></em></li>
+</ul>
+<% end %>
+<% end %>
